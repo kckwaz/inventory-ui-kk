@@ -10,7 +10,8 @@ describe('App', () => {
 
   test('renders without crashing', () => {
     const div = document.createElement('div');
-    ReactDOM.render(<App />, div);
+    ReactDOM.render(<App stockService={new StockItemMockService()}/>, div);
+    
     ReactDOM.unmountComponentAtNode(div);
   });
 });

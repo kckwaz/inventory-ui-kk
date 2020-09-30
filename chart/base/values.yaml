@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 global: {}
 
-connectsTo: inventory-management-bff-{your initials}
+connectsTo: kelechi-inventory-bff77799
 
 replicaCount: 1
 logLevel: "debug"
