@@ -6,6 +6,7 @@ export class StockItemService {
   }
 
   async listStockItems() {
+    console.log("calling bff with url;" + this.baseUrl)
     return superagent
       .get(this.baseUrl + '/stock-items')
       .set('accept', 'application/json')

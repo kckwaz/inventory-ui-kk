@@ -44,6 +44,6 @@ vcsInfo:
 
 partOf: ""
 
-connectsTo: ""
+#connectsTo: ""
 
 runtime: js
