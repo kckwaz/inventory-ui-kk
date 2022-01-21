@@ -36,7 +36,7 @@
     "express": "^4.17.1",
     "express-http-proxy": "^1.6.2",
     "ibm-cloud-env": "^0.2.7",
-    "log4js": "^3.0.5",
+    "log4js": "^6.4.0",
     "node-sass": "^4.14.1",
     "superagent": "^6.1.0"
   },
